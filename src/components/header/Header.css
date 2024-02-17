@@ -19,6 +19,7 @@
     display: flex;
     align-self: center;
     margin-left: auto;
+    margin-right: 12px;
 }
 
 /* ----------------LOGO-------------------- */
@@ -41,14 +42,6 @@
     font-size: 30px;
     font-weight: 700;
     color: #c4161c;
-}
-
-.headerMenuList * {
-    margin-right: 24px;
-}
-
-.headerMenuList *:last-child {
-    margin-right: 0;
 }
 
 /* ----------------SIDE-SECTION-------------------- */
