@@ -37,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: nowrap;
     list-style-type: none;
     font-family: 'Cartoon-regular';
     font-size: 30px;
@@ -121,10 +122,6 @@ button {
     .headerMenuList * {
         margin-right: 6px;
     }
-
-    button {
-        margin-right: 0;
-    }
 }
 
 @media (max-width: 767px) {
@@ -150,15 +147,11 @@ button {
         margin-right: 6px;
     }
 
-    .headerSideWrapper {
-        margin-right: 8px;
-    }
-
-    .headerSideWrapper button {
+    /* .headerSideWrapper button {
         display: inline-block;
         width: 22px;
         margin-right: 0;
-    }
+    } */
 
     .headerSideWrapper button img {
         width: 22px;
