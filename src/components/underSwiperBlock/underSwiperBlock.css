@@ -1,0 +1,60 @@
+.divTest {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 100px);
+    width: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: flex-start; /* Выравнивание элементов контейнера по верхнему краю */
+}
+
+.divTest1 {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/photo-1495195134817-aeb325a55b65.png');
+    background-size: cover; /* Растягиваем изображение на всю ширину и высоту блока */
+    background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
+}
+
+.photo1 {
+    height: 40vh;
+}
+
+.photo2 {
+    height: 40vh;
+    align-self: flex-start; /* Выравнивание второго элемента по верхнему краю */
+    margin-top: 80px;
+}
+
+.photo3 {
+    height: 40vh;
+    align-self: flex-start;
+    margin-top: -120px;
+}
+
+.photo4 {
+    height: 40vh;
+    margin-top: -40px;
+}
+
+@media (max-width: 767px) {
+    .divTest {
+        flex-wrap: unset;
+        flex-direction: column;
+    }
+
+    .photo2 {
+        align-self: unset;
+        margin-top: unset;
+    }
+    
+    .photo3 {
+        align-self: unset;
+        margin-top: unset;
+    }
+    
+    .photo4 {
+        margin-top: unset;
+    }
+}

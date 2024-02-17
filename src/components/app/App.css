@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAF0;
+}
+
+.footer {
+    display: flex;
+    height: 120px;
+    background-color: #585858;
+}

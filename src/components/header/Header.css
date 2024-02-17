@@ -1,0 +1,175 @@
+/* ----------------MAIN-LAYOUTS-------------------- */
+.appHeader {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    background-color: #ffefdf;
+    z-index: 100;
+}
+
+.headerMenuWrapper {
+    margin-left: 29vw;
+    width: 42vw;
+    align-self: center;
+}
+
+.headerSideWrapper {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+}
+
+/* ----------------LOGO-------------------- */
+.headerLogo {
+    position: fixed;
+    height: 180px;
+    margin: 20px;
+}
+
+/* ----------------MENU-------------------- */
+.headerMenuList {
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-family: 'Cartoon-regular';
+    font-size: 30px;
+    font-weight: 700;
+    color: #c4161c;
+}
+
+.headerMenuList * {
+    margin-right: 24px;
+}
+
+.headerMenuList *:last-child {
+    margin-right: 0;
+}
+
+/* ----------------SIDE-SECTION-------------------- */
+.headerSideWrapper img {
+    height: 60px;
+    width: 60px;
+}
+
+button {
+    margin-right: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+/* ----------------FONTS-------------------- */
+@font-face {
+    font-family: 'Cartoon-regular';
+    src: url('../../fonts/Cartoon1471Extended.ttf') format('truetype');
+}
+
+/* ----------------RESOLUTIONS-------------------- */
+@media (min-width: 1366px) and (max-width: 1800px) {
+    .headerMenuWrapper {
+        margin-left: 27vw;
+        width: 46vw;
+    }
+    
+    .headerMenuList {
+        font-size: 26px;
+    }
+
+    .headerMenuList * {
+        margin-right: 12px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .appHeader {
+        min-height: 80px;
+    }
+
+    .headerLogo {
+        height: 140px;
+    }
+    
+    .headerMenuWrapper {
+        margin-left: 25vw;
+        width: 50vw;
+    }
+
+    .headerMenuList {
+        font-size: 20px;
+    }
+
+    .headerMenuList * {
+        margin-right: 8px;
+    }    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .appHeader {
+        min-height: 80px;
+    }
+
+    .headerLogo {
+        height: 140px;
+    }
+
+    .headerMenuWrapper {
+        margin-left: 22vw;
+        width: 56vw;
+    }
+
+    .headerMenuList {
+        font-size: 18px;
+    }
+
+    .headerMenuList * {
+        margin-right: 6px;
+    }
+
+    button {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .appHeader {
+        height: 45px;
+    }
+
+    .headerLogo {
+        height: 39px;
+        margin: 3px;
+    }
+
+    .headerMenuWrapper {
+        margin-left: 15vw;
+        width: 70vw;
+    }
+
+    .headerMenuList {
+        font-size: 10px;
+    }
+
+    .headerMenuList * {
+        margin-right: 6px;
+    }
+
+    .headerSideWrapper {
+        margin-right: 8px;
+    }
+
+    .headerSideWrapper button {
+        display: inline-block;
+        width: 22px;
+        margin-right: 0;
+    }
+
+    .headerSideWrapper button img {
+        width: 22px;
+        height: 22px;
+    }
+}
