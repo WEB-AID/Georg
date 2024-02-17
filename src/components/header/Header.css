@@ -147,11 +147,11 @@ button {
         margin-right: 6px;
     }
 
-    /* .headerSideWrapper button {
+    .headerSideWrapper button {
         display: inline-block;
         width: 22px;
         margin-right: 0;
-    } */
+    }
 
     .headerSideWrapper button img {
         width: 22px;
