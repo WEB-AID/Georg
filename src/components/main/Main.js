@@ -13,13 +13,13 @@ export default class Main extends React.Component {
         return(
             <main className='mainWrapper'>
                 <SwiperBlock />
-                <div className='div1-2'>
+                <div className='scroll'>
                     <div className='scrollWrapper'>
                         <img src={doubleDown} className='scroll1' alt='' />
                     </div>
                 </div>
-                {/* <UnderSwiperBlock />
-                <div className="middleBlock">
+                {/* <UnderSwiperBlock /> */}
+                {/* <div className="middleBlock">
                     <div className="middleBlockText">
                         AAA123543453
                     </div>

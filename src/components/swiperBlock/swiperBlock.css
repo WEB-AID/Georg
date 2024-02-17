@@ -1,5 +1,5 @@
 .carouselFirstBlock {
-    margin-top: 10vh;
+    margin-top: 100px;
     height: 86vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ swiper-container {
 }
 
 .plantPhoto {
-    width: 100%;
+    width: 100vi;
     height: 100%;
 }
 
@@ -26,4 +26,35 @@ swiper-container {
 .shopPhoto {
     height: 100%;
     width: 100vi;
+}
+
+/* ----------------RESOLUTION-------------------- */
+
+@media (max-width: 767px) {
+    .carouselFirstBlock {
+        height: 60vh;
+    }
+
+    swiper-container {
+        height: 60vh;
+    }
+
+    .carouselFirstBlock {
+        margin-top: 45px;
+    }
+
+    .plantPhoto {
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .pigsPhoto {
+        height: 60vh;
+        width: 100vi;
+    }
+    
+    .shopPhoto {
+        height: 60vh;
+        width: 100vi;
+    }
 }
