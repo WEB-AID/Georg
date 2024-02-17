@@ -14,29 +14,29 @@ swiper-container {
 }
 
 .plantPhoto {
-    width: 100vi;
+    width: 100vh;
     height: 100%;
 }
 
 .pigsPhoto {
     height: 100%;
-    width: 100vi;
+    width: 100vh;
 }
 
 .shopPhoto {
     height: 100%;
-    width: 100vi;
+    width: 100vh;
 }
 
 /* ----------------RESOLUTION-------------------- */
 
 @media (max-width: 767px) {
     .carouselFirstBlock {
-        height: 60vh;
+        height: 50vh;
     }
 
     swiper-container {
-        height: 60vh;
+        height: 50vh;
     }
 
     .carouselFirstBlock {
@@ -45,16 +45,16 @@ swiper-container {
 
     .plantPhoto {
         width: 100%;
-        height: 60vh;
+        height: 50vh;
     }
     
     .pigsPhoto {
-        height: 60vh;
+        height: 50vh;
         width: 100vi;
     }
     
     .shopPhoto {
-        height: 60vh;
+        height: 50vh;
         width: 100vi;
     }
 }
