@@ -1,6 +1,7 @@
 .aboutUsBlock {
     margin: 0;
     padding: 0;
+    height: calc(100vh - 100px);
 }
 
 .aboutUsBlock::before {
@@ -18,33 +19,73 @@
 .aboutUsBlockWrapper {
     display: flex;
     flex-wrap: wrap;
-    height: calc(100vh - 100px);
-    /* width: 80vh; */
+    height: 75vh;
+    width: 40vi;
     margin-left: auto;
     margin-right: auto;
+    justify-content: flex-start; /* Используйте flex-start вместо center */
+    align-items: baseline;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.aboutUsBlockWrapper *::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    background-image: url('../../assets/111.png');
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+/* ----------------CONTENT-------------------- */
+.text1 {
+    height: 20vi;
+    width: 20vi;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
+    /* align-self: center; */
+    position: relative;
+    /* top:180px; */
 }
 
-.photo1 {
-    height: 40vh;
+.text2 {
+    height: 20vi;
+    width: 20vi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-self: center; */
+    position: relative;
 }
 
-.photo2 {
-    height: 40vh;
-    align-self: flex-start;
-    margin-top: 80px;
+.text3 {
+    height: 20vi;
+    width: 20vi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-self: center; */
+    position: relative;
+    /* top:180px; */
 }
 
-.photo3 {
-    height: 40vh;
-    align-self: flex-start;
-    margin-top: -120px;
-}
-
-.photo4 {
-    height: 40vh;
-    margin-top: -40px;
+.text4 {
+    height: 20vi;
+    width: 20vi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-self: center; */
+    position: relative;
 }
 
 /* ----------------RESOLUTION-------------------- */
@@ -55,17 +96,17 @@
         flex-direction: column;
     }
 
-    .photo2 {
+    .text2 {
         align-self: unset;
         margin-top: unset;
     }
     
-    .photo3 {
+    .text3 {
         align-self: unset;
         margin-top: unset;
     }
     
-    .photo4 {
+    .text4 {
         margin-top: unset;
     }
 }
