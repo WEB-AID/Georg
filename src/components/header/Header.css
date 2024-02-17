@@ -45,6 +45,10 @@
     color: #c4161c;
 }
 
+.headerMenuList * {
+    margin-right: 16px;
+}
+
 /* ----------------SIDE-SECTION-------------------- */
 .headerSideWrapper img {
     height: 60px;

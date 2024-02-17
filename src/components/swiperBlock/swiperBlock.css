@@ -7,7 +7,6 @@
 }
 
 /* ----------------SWIPER-------------------- */
-
 swiper-container {
     width: 100%;
     height: 86vh;
@@ -29,7 +28,6 @@ swiper-container {
 }
 
 /* ----------------RESOLUTION-------------------- */
-
 @media (max-width: 767px) {
     .carouselFirstBlock {
         height: 50vi;

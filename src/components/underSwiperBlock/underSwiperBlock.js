@@ -8,12 +8,12 @@ export default class UnderSwiperBlock extends React.Component {
 
     render() {
         return(
-            <div className="divTest1">
-                <div className="divTest">
-                    <img className="photo1" src={photo} alt=""></img>
+            <div className="aboutUsBlock">
+                <div className="aboutUsBlockWrapper">
+                    {/* <img className="photo1" src={photo} alt=""></img>
                     <img className="photo2" src={photo} alt=""></img>
                     <img className="photo3" src={photo} alt=""></img>
-                    <img className="photo4" src={photo} alt=""></img>
+                    <img className="photo4" src={photo} alt=""></img> */}
                 </div>
             </div>
         )

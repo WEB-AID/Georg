@@ -1,11 +1,4 @@
 /* ----------------SCROLL-------------------- */
-.scroll {
-    height: 4vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .middleBlock {
     position: relative;
     height: calc(100vh - 100px);
@@ -69,13 +62,21 @@
 
 .scrollWrapper {
     cursor: pointer;
+    height: 3vh;
     width: 6vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.scroll1 {
+.scroll {
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollArrow {
     height: 3vh;
 }
 

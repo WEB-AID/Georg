@@ -15,10 +15,10 @@ export default class Main extends React.Component {
                 <SwiperBlock />
                 <div className='scroll'>
                     <div className='scrollWrapper'>
-                        <img src={doubleDown} className='scroll1' alt='' />
+                        <img src={doubleDown} className='scrollArrow' alt='' />
                     </div>
                 </div>
-                {/* <UnderSwiperBlock /> */}
+                <UnderSwiperBlock />
                 {/* <div className="middleBlock">
                     <div className="middleBlockText">
                         AAA123543453
