@@ -1,0 +1,43 @@
+.middleBlock {
+    position: relative;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.middleBlock::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url('../../assets/36230_800x600_Tsughrughasheni.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.googleMap {
+    margin: auto auto;
+    width: 75%;
+    height: 75%;
+}
+
+.middleBlockText {
+    margin: auto auto;
+}
+
+@media (min-width: 768px) {
+    .middleBlock {
+        flex-direction: unset;
+    }
+
+    .googleMap {
+        margin: auto auto;
+        width: 40%;
+        height: 40%;
+    }
+}

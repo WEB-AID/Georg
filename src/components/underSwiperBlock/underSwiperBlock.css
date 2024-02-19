@@ -61,6 +61,7 @@
     width: 50%;
     height: 50%;
     align-items: center;
+    justify-content: center;
 }
 
 .text2 {
@@ -78,6 +79,7 @@
     width: 50%;
     height: 50%;
     align-items: center;
+    justify-content: center;
 }
 
 .text3 {
@@ -95,6 +97,7 @@
     width: 50%;
     height: 50%;
     align-items: center;
+    justify-content: center;
 }
 
 .text4 {
@@ -112,11 +115,7 @@
     width: 50%;
     height: 50%;
     align-items: center;
-}
-
-.text1, span {
-    vertical-align: middle;
-    align-items: center;
+    justify-content: center;
 }
 
 /* ----------------RESOLUTION-------------------- */
@@ -139,5 +138,37 @@
     
     .text4 {
         margin-top: unset;
+    }
+}
+
+@media (min-width: 768px) {
+    .aboutUsBlockWrapper {
+        font-size: 18px;
+    }
+
+    .text1 {
+        height: 50%;
+        width: 50%;
+    }
+
+    .text2 {
+        height: 50%;
+        width: 50%;
+    }
+    
+    .text3 {
+        height: 50%;
+        width: 50%;
+    }
+    
+    .text4 {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+    .aboutUsBlockWrapper {
+        font-size: 14px;
     }
 }
