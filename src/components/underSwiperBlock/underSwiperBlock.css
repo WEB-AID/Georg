@@ -25,7 +25,7 @@
     height: calc(100vh - 100px);
     width: 40vi;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 700;
     text-align: center;
 }
@@ -56,6 +56,13 @@
     position: relative;
 }
 
+.text1_1 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
 .text2 {
     height: 25%;
     width: 100%;
@@ -64,6 +71,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.text2_1 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
 }
 
 .text3 {
@@ -76,6 +90,13 @@
     position: relative;
 }
 
+.text3_1 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
 .text4 {
     height: 25%;
     width: 100%;
@@ -84,6 +105,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.text4_1 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
 }
 
 .text1, span {
